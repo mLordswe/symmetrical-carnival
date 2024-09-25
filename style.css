@@ -1,0 +1,35 @@
+body {
+  background-color: rgb(37, 36, 36);
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 7px;
+}
+h1 {
+  grid-column: 2 / span 4;
+  grid-row: 2;
+}
+#inpBTN {
+  grid-row: 4;
+  grid-column: 3;
+  margin: 0px;
+}
+#inpNR {
+  grid-row: 4;
+  grid-column: 2;
+}
+#inpLBL {
+  grid-row: 3;
+  grid-column: 2 / span 2;
+  font-size: 35px;
+}
+footer {
+  grid-row: 5;
+  grid-column: 2 / span 6;
+  justify-content: center;
+
+  padding-right: 25%;
+  font: size 35px;
+}

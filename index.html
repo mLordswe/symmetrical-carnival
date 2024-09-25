@@ -1,13 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="app.js"></script>
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Plant</title>
+  </head>
+  <body>
+    <main class="container">
+      <h1>Plantera mera?</h1>
+
+      <div id="inpNR">
+        <input type="number" id="plants" name="plants" value="" />
+        <button id="skicka">räkna</button>
+      </div>
+      <div id="inpLBL">
+        <label for="plants">Hur många plantor har du?</label>
+      </div>
+
+      <footer><p id="summa"></p></footer>
+    </main>
+  </body>
 </html>
